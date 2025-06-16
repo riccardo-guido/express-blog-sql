@@ -32,34 +32,7 @@ const show = (req, res) => {
   });
 };
 
-const store = (req, res) => {
-  //   const { title, content, image, tags } = req.body;
-  //   const malformedElements = [];
-  // if (!title || typeof title !== "string" || title.length < 3) {
-  // malformedElements.push("title");
-  // }
-  // if (!content || typeof content !== "string" || content.length < 3) {
-  // malformedElements.push("content");
-  // }
-  // if (typeof image !== "string") { malformedElements.push("image");
-  // }
-  // if (!Array.isArray (tags)) { malformedElements.push("tags"); }
-  // if (malformedElements.length) {
-  //   const error = new Error("Request is malformed");
-  //   error.statusCode = 400;
-  //   error.data = malformedElements;
-  //   throw error;
-  // }
-  //   let maxId = 0;
-  //   for(const post of posts) {
-  //     if(post.id > maxId) maxId = post.id;
-  //   }
-  //   const postId = maxId + 1;
-  //   const newPost = { id: postId, title, content, image, tags };
-  //   posts.push(newPost);
-  //   res.status(201).json(newPost);
-  //   console.log(newPost);
-};
+const store = (req, res) => {};
 
 const update = (req, res) => {
   //   //CONTROLLO SE IL POST DA MODIFICARE ESISTE
