@@ -30,20 +30,6 @@ const show = (req, res) => {
       status: 200,
     });
   });
-
-  //   const post = posts.find(currentPost => currentPost.id === postId);
-  //   // HANDLE NOT FOUND
-  // if(!post) {
-  //   const error = new Error();
-  //   error.statusCode = 404;
-  //   error.message = "Post not found";
-  //   throw error;
-  // }
-  // // HANDLE SUCCESS
-  //   res.json({
-  //     description: "Lista del dettaglio del post " + postId,
-  //     data: post,
-  //   });
 };
 
 const store = (req, res) => {
